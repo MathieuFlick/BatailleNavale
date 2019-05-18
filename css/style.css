@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "navy_font";
+    src: url('./../font/navy_font.otf');
+}
+body {
+    font-family: "navy_font";
+    background: url('./../images/background.jpg');
+    margin-top: 0;
+}
+
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 6em;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    
+}
+button {
+    margin: auto;
+    margin-bottom: 2.5em;
+    height: 3em;
+    border-radius: 0.2em;
+    background-color: white;
+    border: 3px solid black;
+    font-family: "navy_font";
+    font-size: 1.2em;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+#bateaux {
+    border: solid black 1em;
+    background: white;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    margin-left: 18%;
+    background: url('./../images/mer.jpg');
+
+}
+
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    filter:alpha(opacity: 0);
+    opacity: 0;
+    
+}
+
+p{
+    font-size:1.8em;
+    margin-left:0.5em;
+}
+
+#trHead {
+    vertical-align: middle;
+}
+#touché {
+    opacity: 1;
+}
+#plouf {
+    opacity: 1;
+}

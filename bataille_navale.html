@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+    <title>Bataille Navale</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Bataille Navale</h1>
+        <button id="bouton" onclick="Partie()">Commencer la partie</button>
+    </header>
+    <main id='main'>
+            <div id='bateaux'>
+                <ul>
+                <li id="porte_avions"><h3>Porte-avions 0/5</h3><img src="./images/porte_avions.png" alt="Porte-avions"/></li>
+                <li id="croiseur"><h3>Croiseur 0/4</h3><img src="./images/croiseur.png" alt="Croiseur"/></li>
+                <li id="contre_torpilleur"><h3>Contre-torpilleur 0/3</h3><img src="./images/contre_torpilleur.png" alt="Contre-torpilleur"/></li>
+                <li id="sous_marin"><h3>Sous-marin 0/3</h3><img src="./images/sous_marin.png" alt="Sous-marin"/></li>
+                <li id="torpilleur"><h3>Torpilleur 0/2</h3><img src="./images/torpilleur.png" alt="Torpilleur"/></li>
+                </ul>
+            </div>
+    </main>
+    <main id='main2'>
+        <div id='compteur'>
+            <p>Nombre de coups joués : 0</p>
+        </div>
+    </main>
+    <script type="text/javascript" src="batailleNavale.js"></script>
+</body>
+</html>
